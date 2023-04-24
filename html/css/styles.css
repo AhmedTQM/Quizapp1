@@ -1,0 +1,84 @@
+/* Allgemeine CSS-Stile */
+body {
+  background-color: rgba(9, 24, 86, 0.867);
+}
+
+.Sub {
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuestionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.QuestionBox {
+  width: 300px;
+  border: solid 4px rgb(218, 87, 0);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AnswerBox {
+  font-size: 16px;
+  padding: 12px;
+  padding-left: 104.5px;
+  padding-right: 104.5px;
+  margin-top: 5px;
+  color: white;
+  background-color: rgb(218, 87, 0);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Consolas, monaco, monospace;
+}
+
+.Circle {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* Überschrift */
+.QuizApp {
+  font-size: 42px;
+  width: 150px;
+  height: 75px;
+  color: rgb(218, 87, 0);
+  text-align: center;
+  padding-top: 2px;
+  font-family: Consolas, monaco, monospace;
+}
+h2 {
+  text-align: center;
+  font-family: Consolas, monaco, monospace;
+}
+
+@media only screen and (max-width: 375px) {
+  .Circle {
+    width: 415px;
+    height: 415px;
+  }
+
+  .QuizApp {
+    font-size: 42px;
+  }
+}

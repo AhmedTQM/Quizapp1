@@ -1,6 +1,10 @@
+@import "global.css";
+
 /* Allgemeine CSS-Stile */
-body {
-  background-color: rgba(9, 24, 86, 0.867);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .Sub {
@@ -23,19 +27,19 @@ body {
   border: solid 4px rgb(218, 87, 0);
   border-radius: 10px;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .AnswerBox {
+  width: 330px;
   font-size: 16px;
   padding: 12px;
-  padding-left: 104.5px;
-  padding-right: 104.5px;
   margin-top: 5px;
   color: white;
   background-color: rgb(218, 87, 0);
@@ -70,8 +74,105 @@ body {
 h2 {
   text-align: center;
   font-family: Consolas, monaco, monospace;
+  margin-bottom: 20px;
 }
 
+.homepng {
+  width: 60px;
+}
+.userpng {
+  width: 60px;
+}
+.bookmarkpng {
+  width: 60px;
+}
+.footer {
+  border: solid rgba(9, 24, 86, 0.6) 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.navbar {
+  height: 75px;
+}
+.navbar-list {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-list-item {
+  border: solid rgba(9, 24, 86, 0.6) 3px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookmarkpng-Question {
+  width: 50px;
+  position: absolute;
+  top: -274px;
+  right: -36px;
+}
+
+.question-card__image-wrapper {
+  width: 100%;
+  position: relative;
+}
+.bookmarkpng-Question2 {
+  width: 50px;
+  position: absolute;
+  top: -114px;
+  right: -36px;
+}
+.bookmarkpng-Question3 {
+  width: 50px;
+  position: absolute;
+  top: -114px;
+  right: -36px;
+}
+.bookmarkpng-Question4 {
+  width: 50px;
+  position: absolute;
+  top: -178px;
+  right: -36px;
+}
+.bookmarkpng-Question5 {
+  width: 50px;
+  position: absolute;
+  top: -242px;
+  right: -36px;
+}
+.bookmarkpng-Question6 {
+  width: 50px;
+  position: absolute;
+  top: -210px;
+  right: -36px;
+}
+.bookmarkpng-Question7 {
+  width: 50px;
+  position: absolute;
+  top: -210px;
+  right: -36px;
+}
+.bookmarkpng-Question8 {
+  width: 50px;
+  position: absolute;
+  top: -114px;
+  right: -36px;
+}
+.bookmarkpng-Question9 {
+  width: 50px;
+  position: absolute;
+  top: -146px;
+  right: -36px;
+}
+.stark {
+  background-color: rgba(255, 255, 255, 0.85);
+}
 @media only screen and (max-width: 375px) {
   .Circle {
     width: 415px;

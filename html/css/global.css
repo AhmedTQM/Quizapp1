@@ -1,4 +1,17 @@
-@import "global.css";
 body {
   background-color: rgba(9, 24, 86, 0.867);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Sub {
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }

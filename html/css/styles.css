@@ -1,20 +1,5 @@
 @import "global.css";
 
-/* Allgemeine CSS-Stile */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.Sub {
-  text-align: center;
-  margin-top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .QuestionContainer {
   display: flex;
   flex-direction: column;
@@ -24,7 +9,7 @@
 
 .QuestionBox {
   width: 300px;
-  border: solid 4px rgb(218, 87, 0);
+  border: solid 4px #da5700;
   border-radius: 10px;
   background-color: white;
   padding: 30px;
@@ -36,7 +21,7 @@
   margin-bottom: 100px;
 }
 
-.AnswerBox {
+.answerBox {
   width: 330px;
   font-size: 16px;
   padding: 12px;
@@ -47,12 +32,14 @@
   border-radius: 5px;
   cursor: pointer;
   font-family: Consolas, monaco, monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
 }
 
 .Circle {
   position: fixed;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: 50%;
@@ -64,11 +51,11 @@
 /* Überschrift */
 .QuizApp {
   font-size: 42px;
-  width: 150px;
+  width: 350px;
   height: 75px;
   color: rgb(218, 87, 0);
   text-align: center;
-  padding-top: 2px;
+  padding-top: 46px;
   font-family: Consolas, monaco, monospace;
 }
 h2 {
@@ -170,9 +157,10 @@ h2 {
   top: -146px;
   right: -36px;
 }
-.stark {
+.navbar-list-item-strong {
   background-color: rgba(255, 255, 255, 0.85);
 }
+
 @media only screen and (max-width: 375px) {
   .Circle {
     width: 415px;
